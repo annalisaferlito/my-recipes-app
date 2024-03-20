@@ -26,6 +26,7 @@ const RecipesList = () => {
 
     return (
         <div className="recipes">
+            <h1 className="recipes">Recipes</h1>
         <ul>
             {recipes.map((recipe) => (
             <li key={recipe.idMeal}>
